@@ -2,8 +2,6 @@ package src;
 
 import java.util.Arrays;
 
-import static java.util.Arrays.stream;
-
 public class HighestAndLowest {
     public static void main(String[] args) {
         System.out.println(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
@@ -19,8 +17,8 @@ public class HighestAndLowest {
 
         int[] ints = Arrays.stream(array).sorted().toArray();
         String maximum = String.valueOf(ints[size-1]);
-        String s1 = String.valueOf(ints[0]);
-        return maximum + " " + s1;
+        String minimum = String.valueOf(ints[0]);
+        return maximum + " " + minimum;
 
     }
 }
