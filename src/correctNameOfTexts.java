@@ -3,7 +3,7 @@ package src;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class correctNameOfTexts {
+public class CorrectNameOfTexts {
     /*
     Exercise:
     Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
